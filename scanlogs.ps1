@@ -2,7 +2,7 @@
 $LogFolder    = "C:\temp\logs"         # Folder containing your copied Sonarr/Radarr logs
 $OutputFile   = "C:\temp\CorruptFiles.txt" # Where to save the hit list
 $DockerMount  = "/tv/"                    # The base path Sonarr uses
-$WindowsDrive = "D:\Media\"      # Your StableBit DrivePool path
+$WindowsDrive = "D:\Media\"      # Your Media path
 # ---------------------
 
 if (Test-Path $OutputFile) { Remove-Item $OutputFile }
